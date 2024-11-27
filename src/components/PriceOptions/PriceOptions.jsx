@@ -1,6 +1,6 @@
 import PriceOption from "../PriceOption/PriceOption";
 const PriceOptions = () => {
-  const PriceOptions =   [
+  const priceOptions =   [
         {
             "id": 1,
             "name": "Basic Plan",
@@ -54,7 +54,7 @@ const PriceOptions = () => {
         <div className="">
 <h2 className="text-5xl">best gym</h2>
 {
-    PriceOptions.map(option => <PriceOption key={option.id} option={option}></PriceOption>)
+    priceOptions.map(option => <PriceOption key={option.id} option={option}></PriceOption>)
 }
         </div>
   

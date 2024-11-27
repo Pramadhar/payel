@@ -2,11 +2,12 @@
 
 const PriceOption = ({option}) => {
     const[ price,name,feature] = option
+    console.log(option)
     return (
         <div>
             <h2>
                 <span className="text-7xl">
-                    {name}
+                    {/* {name} */}
                 </span>
                 <span className="text-3xl">
                       /mon
